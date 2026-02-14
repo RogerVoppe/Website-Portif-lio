@@ -19,12 +19,6 @@ Seção de Habilidades: Destaque para ferramentas que domino e estou aprimorando
 Formulário de Contato: Interface desenhada para facilitar a comunicação.
 Links Sociais: Acesso rápido ao meu LinkedIn e GitHub.
 
-
-Como acessar
-Você pode visualizar o projeto online clicando no link abaixo:
-[Inserir o link do seu site aqui quando ele estiver no ar]
-
-
 Autor
 Roger Voppe
 Estudante de Engenharia de Software
