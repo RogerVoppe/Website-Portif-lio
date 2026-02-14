@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FONTE DO GOOLE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--FIM FONTE DO GOOLE-->
+    <!--BOOTSTRAP ICONS-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- FIM BOOTSTRAP ICONS-->
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="menu.js" defer></script>
+
+    <title>Roger Voppe | Engenharia de Software</title>
+</head>
+<body>
+
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logotipo.png" alt="Logo Roger Voppe">
+                </a>
+            </div><!--logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Habilidades</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="#">
+                    <button>Contato</button>
+                </a>
+            </div><!--btn-contato-->
+            
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div><!--btn-abrir-menu-->
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>   
+                </div><!--btn-fechar-->
+
+                <nav>
+                <ul>
+                    <li><a href="#topo">Início</a></li>
+                    <li><a href="#hability">Habilidades</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#port">Projetos</a></li>
+                    <li><a href="#forms">Contato</a></li>
+                </ul>
+            </nav>                
+                
+            </div><!--menu-mobile-->
+
+            <div class="overlay-menu" id="overlay-menu">
+            </div><!--overlay-menu-->
+
+        </div><!--interface-->
+    </header>
+    
+    <main>
+        <section class="topo-do-site" id="topo">
+            <div class="interface">
+                <div class="flex">
+
+                    <div class="txt-topo-site">
+                        <h1>CODANDO O FUTURO, UMA LINHA POR VEZ<span>.</span></h1>
+                        <p>Estudante de Engenharia de Software apaixonado por transformar lógica em soluções. Este portfólio é o registro da minha evolução, dos primeiros "Hello World" aos projetos que resolvem problemas reais.</p>
+                        <div class="btn-contato">
+                            <a href="#">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div><!--txt-topo-site-->
+
+                    <div class="img-topo-site">
+                        <img src="images/foto.png" alt="">
+                    </div><!--img-topo-site-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+
+        <section class="habilidades" id="hability">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>HABILIDADES</span></h2>
+                <div class="flex">
+                    <div class="habilidades-box">
+                        <i class="bi bi-code-square"></i>
+                        <h3>Python</h3>
+                        <p>Desenvolvimento de scripts para automação de rotinas, manipulação de dados e construção de lógicas eficientes para o back-end.</p>
+                    </div><!--habilidades-box-->
+
+                    <div class="habilidades-box">
+                        <i class="bi bi-clipboard2-data"></i>
+                        <h3>Análise de Dados</h3>
+                        <p>Transformação de dados brutos em insights estratégicos, identificando padrões para otimizar processos e apoiar a tomada de decisão.</p>
+                    </div><!--habilidades-box-->
+
+                    <div class="habilidades-box">
+                        <i class="bi bi-bar-chart-fill"></i>
+                        <h3>Business Intelligence</h3>
+                        <p>Criação de dashboards interativos e monitoramento de KPIs para traduzir números complexos em visualizações claras de performance.</p>
+                    </div><!--habilidades-box-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--habilidades-->
+
+        <section class="sobre" id="about">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="images/foto.png" alt="">
+                    </div><!--img-sobre-->
+                    
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER, <span>SOU ROGER VOPPE</span></h2>
+                        <p>Olá, muito prazer! Meu nome é Roger, estudante do 4º semestre de Engenharia de Software e um apaixonado por resolver problemas. Minha jornada até a tecnologia não foi uma linha reta. Construí uma base analítica forte com minha formação técnica em Contabilidade e minha atuação diária como Analista corporativo. Lidando com grandes volumes de informações, Power BI, SQL e Excel, percebi que queria ir além de analisar dados, eu queria construir os sistemas por trás deles.</p>
+                        <p>Hoje, estou dando meus primeiros passos no desenvolvimento, com foco atual em aprofundar meus estudos em Python e lógica de programação. Como iniciante na área de engenharia, sei que tenho muito a aprender, mas trago comigo a visão de negócios do mercado corporativo e a determinação para me tornar um profissional completo.</p>
+                        <div class="btn-social">
+                            <a href="https://www.instagram.com/rogervoppe1/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://github.com/RogerVoppe" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                            <a href="https://www.linkedin.com/in/roger-pereira-/"target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                        </div><!--btn-social-->
+                    </div><!--txt-sobre-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--sobre-->
+
+        <section class="portfolio" id="port">
+            <div class="interface">
+                <h2 class="titulo">MEU <span>PORTFÓLIO</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(images/pngimg.com\ -\ under_construction_PNG42.png);">
+                        <div class="overlay">PROJETO 1</div>
+                    </div><!--projeto1-->
+                    <div class="img-port" style="background-image: url(images/pngimg.com\ -\ under_construction_PNG42.png);">
+                        <div class="overlay">PROJETO 2</div>
+                    </div><!--projeto2-->
+                    <div class="img-port" style="background-image: url(images/pngimg.com\ -\ under_construction_PNG42.png);">
+                        <div class="overlay">PROJETO 3</div>
+                    </div><!--projeto3-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--portifolio-->
+        
+        <section class="formulario" id="forms">
+            <div class="interface">
+                <h2 class="titulo">FALE <span>COMIGO</span></h2>
+
+                <form action="formulario.php" method="post">
+                    <input type="text" name="nome" id="" placeholder="Seu nome:" required>
+                    <input type="text" name="e-mail" id="" placeholder="Seu e-mail:" required>
+                    <input type="text" name="telefone" id="" placeholder="Seu celular">
+                    <textarea name="mensagem" id="" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                </form><!--form-->
+            </div><!--interface-->
+        </section><!--formulario-->
+    </main>
+
+</body>
+</html>
