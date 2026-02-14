@@ -20,7 +20,6 @@ Formulário de Contato: Interface desenhada para facilitar a comunicação.
 Links Sociais: Acesso rápido ao meu LinkedIn e GitHub.
 
 
-
 Autor
 Roger Voppe
 Estudante de Engenharia de Software
